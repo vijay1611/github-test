@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>img hover</title>
+    <link rel="stylesheet" href="styl.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<style>.section-header h2{
+        text-transform: uppercase;
+    
+    }
+    .section-header {
+        margin: 3%;
+    
+    
+    }
+    .section-header p{
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .single-team{
+        padding-bottom: 70px;
+        position: relative;
+        z-index: 5;
+        overflow: hidden; 
+        box-shadow: 5px 5px 15px #000;
+    }
+    .team-img{
+        position: relative;
+        z-index: 5;
+        overflow:hidden;
+        }
+    
+    team-img img{
+        width: 100%;
+        transition: 0.4s;
+    
+    }
+    .single-team:hover   img{
+        transform: scale(1.1);
+    }
+    .team-content{
+        height: 70px;
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        overflow: hidden;
+        bottom: 0;
+        transition: all .4s;
+        background: tomato;
+        z-index: 5;  
+    }
+    
+    .single-team:hover .team-content{
+        height: 200px;
+        background: #000;
+    }
+     .team-info h3{
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 20px;
+        margin: 5px;
+    }
+    .single-team:hover .team-info h3{
+        color: tomato;
+    }
+    .team-info p{
+        margin-top:15px;
+        color: #000;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    .team-text{
+        color: #fff;
+        padding: 0 10px 5px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </style>
+    </head> 
+<body>
+    <div class="team-area">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center">
+                        <h2>Our Team</h2>
+                        <p>Meet Our Talented BusinessMen</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                     <div class="single-team">
+                         <div class="team-img">
+                             <img src="vip1.jpg" alt="">
+                         </div>
+                         <div class="team-content">
+                             <div class="team-info">
+                                 <h3>Sundar Pichai</h3>
+                                 <p>Google CEO</p> 
+                                </div>
+                                
+                                    <p class="team-text ">He is a talented indian and working for Google company as CEO of the company.And he improving that company by making different activities and innovative ideas</p>
+                            
+                              
+                         </div>
+                     </div>
+                     
+                </div>
+                <div class="col-md-3">
+                    <div class="single-team">
+                        <div class="team-img">
+                            <img src="vip2.jpg" alt="">
+                        </div>
+                        <div class="team-content">
+                            <div class="team-info">
+                                <h3>Elon Musk</h3>
+                                <p>SpaceX CEO</p> 
+                               </div>
+                               
+                                   <p class="team-text ">He is a talented indian and working for Google company as CEO of the company.And he improving that company by making different activities and innovative ideas</p>
+                           
+                             
+                        </div>
+                    </div>
+                    
+                
+            </div>
+            <div class="col-md-3">
+                <div class="single-team">
+                    <div class="team-img">
+                        <img src="vip3.jpg" alt="">
+                    </div>
+                    <div class="team-content">
+                        <div class="team-info">
+                            <h3>Jack Ma</h3>
+                            <p>Alibaba CEO</p> 
+                           </div>
+                           
+                               <p class="team-text ">He is a talented indian and working for Google company as CEO of the company.And he improving that company by making different activities and innovative ideas</p>
+                       
+                         
+                    </div>
+                </div>
+        </div>
+        <div class="col-md-3">
+            <div class="single-team">
+                <div class="team-img">
+                    <img src="vip4.jpg" alt="">
+                </div>
+                <div class="team-content">
+                    <div class="team-info">
+                        <h3>Justin </h3>
+                        <p>Canada President</p> 
+                       </div>
+                       
+                           <p class="team-text ">He is a talented indian and working for Google company as CEO of the company.And he improving that company by making different activities and innovative ideas</p>
+                   
+                     
+                </div>
+            </div>
+    </div>
+    
+</body>
+</html>
